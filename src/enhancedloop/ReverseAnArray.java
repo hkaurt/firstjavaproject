@@ -15,8 +15,8 @@ public class ReverseAnArray {
 		for (int i = 0; i < numbers.length; i++) {
 			reversedNumbers[i] = numbers[numbers.length - 1 - i];
 		}
-		
-		//print reversed array
+
+		// print reversed array
 		for (int m = 0; m < reversedNumbers.length; m++) {
 			System.out.println(reversedNumbers[m]);
 		}
@@ -26,8 +26,8 @@ public class ReverseAnArray {
 		for (int number : numbers) {
 			reversedNumbers[j--] = number;
 		}
-		
-		//print reversed array
+
+		// print reversed array
 		for (int reversed : reversedNumbers) {
 			System.out.println(reversed);
 		}
